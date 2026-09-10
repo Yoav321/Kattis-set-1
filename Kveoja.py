@@ -4,7 +4,10 @@ Yoav Bierkatz - September 2026
 """
 
 def main() -> None:
-  pass # remove me
+  name: str = str(input(""))
+  print(f"""
+Kvedja,
+{name}""")
 
   # input
 
