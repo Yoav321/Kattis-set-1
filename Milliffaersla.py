@@ -13,9 +13,9 @@ dalladollabillgoll: int = int(input(""))
 
   # processing
 
-if monnie <= fjee <= dalladollabillgoll:
+if monnie <= fjee and fjee <= dalladollabillgoll:
   print ("Monnei")
-elif  dalladollabillgoll <= monnie <= fjee:
+elif  dalladollabillgoll <= monnie and monnie <= fjee:
   print("Dolladollabilljoll")
 else:
   print("Fjee")
