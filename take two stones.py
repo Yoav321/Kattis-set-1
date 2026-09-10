@@ -1,5 +1,5 @@
 """
-Describe your program.
+Decides if a number is even or odd.
 Yoav Bierkatz - September 2026
 """
 
