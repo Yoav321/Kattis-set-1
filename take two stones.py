@@ -7,12 +7,17 @@ def main() -> None:
   pass # remove me
 
   # input
+  n: int = int(input(""))
+
+  a = n % 2 
+
+  if a == 1:
+    print("Alice")
+
+  else:
+    print("Bob")
 
 
-  # processing
-  
-  
-  # output
 
 
 if __name__ == "__main__":
