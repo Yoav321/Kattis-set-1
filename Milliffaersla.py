@@ -13,12 +13,12 @@ dalladollabillgoll: int = int(input(""))
 
   # processing
 
-if monnie <= fjee and fjee <= dalladollabillgoll:
+if monnie < fjee and monnie < dalladollabillgoll:
   print ("Monnei")
-elif  dalladollabillgoll <= monnie and monnie <= fjee:
-  print("Dolladollabilljoll")
-else:
+elif  fjee < monnie and fjee < dalladollabillgoll:
   print("Fjee")
+else:
+  print("Dolladollabilljoll")
   # output
 
 
